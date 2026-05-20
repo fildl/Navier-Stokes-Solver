@@ -46,4 +46,9 @@ Taking the divergence of the momentum equation leads to a Poisson equation for p
 
 .. math::
    \frac{\partial^2 p}{\partial^2 x} +
-   \frac{\partial^2 p}{\partial^2 y} = b 
+   \frac{\partial^2 p}{\partial^2 y} = 
+   - \rho \left[
+      \left(\frac{\partial u}{\partial x}\right)^2 +
+      2\frac{\partial u}{\partial y}\frac{\partial v}{\partial x} +
+      \left(\frac{\partial v}{\partial y}\right)^2
+      \right] = b
