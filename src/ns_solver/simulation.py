@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 import numpy as np
-from ns_solver.grid import Grid
-from ns_solver.solver import build_up_b, pressure_poisson, update_velocity
+from .grid import Grid
+from .solver import build_up_b, pressure_poisson, update_velocity
 
 @dataclass
 class SimulationClass:
